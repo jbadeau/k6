@@ -1,8 +1,7 @@
 name: xk6bundler
 on:
-  push:
-    tags:
-      - "v*"
+  commit:
+
 jobs:
   xk6bundler:
     name: Bundle xk6 extensions
