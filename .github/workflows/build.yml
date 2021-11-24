@@ -1,6 +1,5 @@
 name: xk6bundler
-on:
-  commit:
+on: push
 
 jobs:
   xk6bundler:
