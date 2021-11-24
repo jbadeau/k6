@@ -1,5 +1,8 @@
 name: xk6bundler
-on: push
+on:
+  push:
+    tags:
+      - "v*"
 
 jobs:
   xk6bundler:
